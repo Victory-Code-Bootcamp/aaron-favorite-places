@@ -1,1 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/Styles.css" />
 
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- End Google Font -->
+
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- End Bootstrap CDN -->
+
+    <!-- Font Awesome CDN -->
+    <script
+      src="https://kit.fontawesome.com/7e16f29d38.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font Awesome CDN -->
+
+    <title>Aaron's Favorite Places</title>
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html" id="logo"
+          ><span>T</span>ravel</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mynavbar"
+        >
+          <span><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#places">Places</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Links</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search" />
+            <button class="btn btn-primary" type="button">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Home Section Start -->
+    <div class="home">
+      <div class="content">
+        <h5>Welcome To My World</h5>
+        <h1>Visit <span class="changecontent"></span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
+          alias!
+        </p>
+        <a href="#places">Places</a>
+      </div>
+    </div>
+    <!-- Home Section End -->
+
+    <!-- Places Section Start -->
+    <section class="places" id="places">
+      <div class="container">
+        <div class="main-text">
+          <h1><span>P</span>laces</h1>
+          <div class="row" style="margin-top: 30px">
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img
+                  src="https://www.planetware.com/wpimages/2023/04/mexico-cozumel-top-attractions-intro-paragraph-sign-cruise-ship.jpg"
+                  alt="Picture of the Cozumel Sign"
+                />
+                <div class="card-body">
+                  <h3>Cozumel, Mexico</h3>
+                  <p>
+                    Cozumel is Mexico's largest island. It's one of its most
+                    beautiful, as well. Just a 12-mile ferry ride across from
+                    Playa del Carmen, off the northeast coast of the Yucatan
+                    Peninsula, Cozumel provides a Caribbean-style getaway not
+                    far from the popular resorts of the Riviera Maya.
+                  </p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                  </div>
+                  <h6>Check It Out</h6>
+                  <a
+                    href="https://en.wikipedia.org/wiki/Cozumel"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Cozumel Wiki</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img
+                  src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcT9GnM27M5JIYzSv5avOtjW_1BwiML2t5r4I5HyRcaD9NsrFCcXe7Y9Z2w0vITTmBD30kwxyJickWb-HGjOoa6M3mAArxXJtRG-c-6gDA"
+                  alt="Picture of Guangzhou China"
+                />
+                <div class="card-body">
+                  <h3>Guangzhou, China</h3>
+                  <p>
+                    Guangzhou is the capital and largest city of Guangdong
+                    province in southern China. Located on the Pearl River about
+                    120 km (75 mi) north-northwest of Hong Kong and 145 km (90
+                    mi) north of Macau, Guangzhou has a history of over 2,200
+                    years and was a major terminus of the Silk Road.
+                  </p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                  </div>
+                  <h6>Check It Out</h6>
+                  <a
+                    href="https://en.wikipedia.org/wiki/Guangzhou"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Guangzhou Wiki</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img
+                  src="https://i.insider.com/5d264d1fb44ce765c0045293?width=700"
+                  alt="Image of Tokyo Japan in the evening"
+                />
+                <div class="card-body">
+                  <h3>Tokyo, Japan</h3>
+                  <p>
+                    Tokyo, Japan’s busy capital, mixes the ultramodern and the
+                    traditional, from neon-lit skyscrapers to historic temples.
+                    The opulent Meiji Shinto Shrine is known for its towering
+                    gate and surrounding woods. The Imperial Palace sits amid
+                    large public gardens. The city's many museums offer exhibits
+                    ranging from classical art (in the Tokyo National Museum) to
+                    a reconstructed kabuki theater (in the Edo-Tokyo Museum).
+                  </p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                  </div>
+                  <h6>Check It Out</h6>
+                  <a
+                    href="https://en.wikipedia.org/wiki/Tokyo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Tokyo Wiki</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img
+                  src="https://img.delicious.com.au/mKdtsu1d/del/2018/08/explore-norwegian-design-87094-2.jpg"
+                  alt="Image of downtown Oslo Norway"
+                />
+                <div class="card-body">
+                  <h3>Oslo, Norway</h3>
+                  <p>
+                    Oslo, the capital of Norway, sits on the country’s southern
+                    coast at the head of the Oslofjord. It’s known for its green
+                    spaces and museums. Many of these are on the Bygdøy
+                    Peninsula, including the waterside Norwegian Maritime Museum
+                    and the Viking Ship Museum, with Viking ships from the 9th
+                    century. The Holmenkollbakken is a ski-jumping hill with
+                    panoramic views of the fjord. It also has a ski museum
+                  </p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                  </div>
+                  <h6>Check It Out</h6>
+                  <a
+                    href="https://en.wikipedia.org/wiki/Oslo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Oslo Wiki</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Places Section End -->
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="main-text">
+          <h1><span>A</span>bout</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+            fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Vitae, fuga.
+          </p>
+          <div class="row" style="margin-top: 50px">
+            <div class="col-md-6 py-3 py-md-0">
+              <div class="card">
+                <img src="https://picsum.photos/id/1040/600/400" alt="" />
+              </div>
+            </div>
+            <div class="col-md-6 py-3 py-md-0">
+              <h2>Lorem ipsum dolor sit.</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+                fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Vitae, fuga. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Vitae, fuga. Lorem
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Contact Section Start -->
+    <footer id="contact">
+      <h1><span>T</span>ravel</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+        officiis voluptate eos ab, corporis eligendi.
+      </p>
+      <div class="social-links">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <div class="credit">
+        <p>Designed By <a href="#">Ungabad</a></p>
+      </div>
+      <div class="copyright">
+        <p>&copy;Copyright Ungabad. All Rights Reserved</p>
+      </div>
+    </footer>
+    <!-- Contact Section End -->
+    <!-- Bootstrap JS link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- End Bootstrap JS link -->
+  </body>
+</html>
