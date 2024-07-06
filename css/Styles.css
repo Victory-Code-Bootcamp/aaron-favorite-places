@@ -29,6 +29,24 @@
   font-family: "Libre Baskerville", serif, sans-serif;
   font-style: italic;
 }
+/* Responsive Text Sizes Start */
+@media (max-width: 850px) {
+  p {
+    font-size: 26px;
+  }
+}
+@media (max-width: 750px) {
+  p {
+    font-size: 25px;
+  }
+}
+@media (max-width: 450px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+/* Responsive Text Sizes End */
 
 /* Navbar Start */
 #navbar {
@@ -71,12 +89,15 @@
 
 /* Home Section Start */
 .home {
-  width: 100%;
+  width: 90%;
   height: 90vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
-    url(../images/kingdom_in_the_clouds_by_ellysiumn_detb3ep-414w-2x.jpg);
+    url(https://images.pexels.com/photos/4846307/pexels-photo-4846307.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 100px;
 }
 .home .content {
   text-align: center;
@@ -199,12 +220,21 @@
   color: white;
   border-radius: 5px;
 }
+.carousel-item {
+  height: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.carousel-inner img {
+  margin: auto;
+}
 /* Places Section End */
 
 /* About Section Start */
 .about {
   padding: 50px;
   margin-top: 50px;
+  margin-bottom: 50px;
   background: white;
 }
 .about .card {
@@ -225,12 +255,36 @@
     padding: 0px;
   }
 }
+.parallax {
+  /* The image used */
+  background-image: url("https://images.pexels.com/photos/2419307/pexels-photo-2419307.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
+  /* Set a specific height */
+  min-height: 600px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* About Section End */
 
 /* Contact Section Start */
+#contact .btn-primary {
+  text-align: center;
+  margin: 50px;
+  background: #ffa500;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 550;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
 #contact {
   width: 100%;
-  margin-top: 150px;
   text-align: center;
 }
 #contact h1 {
