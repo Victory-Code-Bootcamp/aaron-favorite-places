@@ -29,6 +29,10 @@
   font-family: "Libre Baskerville", serif, sans-serif;
   font-style: italic;
 }
+.btn-primary {
+  background-color: #ffa500;
+  border-color: #ffa500;
+}
 /* Responsive Text Sizes Start */
 @media (max-width: 850px) {
   p {
