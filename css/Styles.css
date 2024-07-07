@@ -1,3 +1,8 @@
+:root {
+  --primary-color: #fff !important;
+  --secondary-color: #000000 !important;
+  --tertiary-color: #ed8c14 !important;
+}
 /* Google Fonts */
 .libre-baskerville-regular {
   font-family: "Libre Baskerville", serif;
@@ -30,8 +35,12 @@
   font-style: italic;
 }
 .btn-primary {
-  background-color: #ffa500;
-  border-color: #ffa500;
+  background-color: var(--tertiary-color);
+  border-color: var(--tertiary-color);
+}
+.btn-primary:hover{
+  background-color: var(--secondary-color);
+  border-color: var(--tertiary-color);
 }
 /* Responsive Text Sizes Start */
 @media (max-width: 850px) {
@@ -54,20 +63,20 @@
 
 /* Navbar Start */
 #navbar {
-  background-color: #f9f9f9;
+  background-color: var(--primary-color);
 }
 #logo {
   font-size: 36px;
   font-weight: 550;
-  color: black;
-  text-shadow: 0px 1px 1px black;
+  color: var(--secondary-color);
+  text-shadow: 0px 1px 1px var(--secondary-color);
   margin-bottom: 5px;
 }
 #logo span {
-  color: #ffa500;
+  color: var(--tertiary-color);
 }
 .navbar-toggler span {
-  color: #ffa500;
+  color: var(--tertiary-color);
 }
 .navbar-nav {
   margin-left: 20px;
@@ -75,18 +84,18 @@
 .nav-item .nav-link {
   font-size: 16px;
   font-weight: 550;
-  color: black;
+  color: var(--secondary-color);
   letter-spacing: 1px;
   border-radius: 3px;
   transition: 0 0.5s ease;
 }
 .nav-item .nav-link:hover {
-  background-color: #ffa500;
-  color: white;
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
 }
 #navbar form button {
-  background: orange;
-  color: white;
+  background: var(--tertiary-color);
+  color: var(--primary-color);
   border: none;
 }
 /* Navbar End */
@@ -108,22 +117,22 @@
   padding-top: 200px;
 }
 .home .content h5 {
-  color: white;
+  color: var(--primary-color);
   font-size: 38px;
   font-weight: 550;
-  text-shadow: 0px 1px 1px black;
+  text-shadow: 0px 1px 1px var(--secondary-color);
 }
 .home .content h1 {
-  color: white;
+  color: var(--primary-color);
   font-size: 70px;
   font-weight: 500;
-  text-shadow: 0px 1px 1px black;
+  text-shadow: 0px 1px 1px var(--secondary-color);
   margin-top: 5px;
 }
 .changecontent::after {
   content: " ";
-  color: #ffa500;
-  text-shadow: 0px 1px 1px black;
+  color: var(--tertiary-color);
+  text-shadow: 0px 1px 1px var(--secondary-color);
   animation: changetext 10s infinite linear;
 }
 @keyframes changetext {
@@ -141,17 +150,17 @@
   }
 }
 .home .content p {
-  color: white;
+  color: var(--primary-color);
   font-size: 15px;
   font-weight: 600;
-  text-shadow: 0px 1px 1px black;
+  text-shadow: 0px 1px 1px var(--secondary-color);
   margin-bottom: 30px;
   margin-top: 5px;
 }
 .home .content a {
   padding: 10px;
-  background: white;
-  color: black;
+  background: var(--primary-color);
+  color: var(--secondary-color);
   letter-spacing: 2px;
   font-weight: 550;
   border-radius: 5px;
@@ -159,8 +168,8 @@
   transition: 0.5s;
 }
 .home .content a:hover {
-  background: #ffa500;
-  color: white;
+  background: var(--tertiary-color);
+  color: var(--primary-color);
 }
 @media (max-width: 850px) {
   .home {
@@ -185,10 +194,10 @@
   text-align: center;
   margin-top: 30px;
   font-weight: 600;
-  text-shadow: 0px 1px 1px black;
+  text-shadow: 0px 1px 1px var(--secondary-color);
 }
 .main-text h1 span {
-  color: #ffa500;
+  color: var(--tertiary-color);
 }
 .places .card {
   border-radius: 5px;
@@ -209,7 +218,7 @@
   font-size: 15px;
 }
 .checked {
-  color: #ffa500;
+  color: var(--tertiary-color);
 }
 .star i {
   font-size: 15px;
@@ -220,8 +229,8 @@
 .places .card .card-body a {
   padding: 10px;
   text-decoration: none;
-  background: #ffa500;
-  color: white;
+  background: var(--tertiary-color);
+  color: var(--primary-color);
   border-radius: 5px;
 }
 .carousel-item {
@@ -239,7 +248,7 @@
   padding: 50px;
   margin-top: 50px;
   margin-bottom: 50px;
-  background: white;
+  background: var(--primary-color);
 }
 .about .card {
   border-radius: 10px;
@@ -278,8 +287,8 @@
 #contact .btn-primary {
   text-align: center;
   margin: 50px;
-  background: #ffa500;
-  color: white;
+  background: var(--tertiary-color);
+  color: var(--primary-color);
   border: none;
   border-radius: 5px;
   padding: 10px;
@@ -294,22 +303,22 @@
 #contact h1 {
   font-weight: 600;
   padding-top: 30px;
-  text-shadow: 0px 1px 1px black;
+  text-shadow: 0px 1px 1px var(--secondary-color);
 }
 #contact h1 span {
-  color: #ffa500;
+  color: var(--tertiary-color);
 }
 .social-links i {
   padding: 10px;
   border-radius: 5px;
   font-size: 20px;
-  background: black;
-  color: white;
+  background: var(--secondary-color);
+  color: var(--primary-color);
   margin: 0 0 10px 10px;
   transition: 0.5s ease;
   cursor: pointer;
 }
 .social-links i:hover {
-  background: #ffa500;
+  background: var(--tertiary-color);
 }
 /* Contact Section End */
