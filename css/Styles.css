@@ -57,6 +57,9 @@
   p {
     font-size: 16px;
   }
+  .accordion-body p {
+    font-size: 9px;
+  }
 }
 
 /* Responsive Text Sizes End */
