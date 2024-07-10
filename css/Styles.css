@@ -106,7 +106,7 @@
 /* Home Section Start */
 .home {
   width: 90%;
-  height: 90vh;
+  height: 70vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
     url(https://images.pexels.com/photos/4846307/pexels-photo-4846307.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-repeat: no-repeat;
