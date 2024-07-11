@@ -244,6 +244,34 @@
 .carousel-inner img {
   margin: auto;
 }
+
+/* Changing the Color of the Arrows */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  filter: invert(100%);
+  outline: white;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 3px solid white;
+  background-image: none;
+}
+
+/* .carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+} */
+/* Changing the Color of the Arrows End */
+
 /* Places Section End */
 
 /* About Section Start */
